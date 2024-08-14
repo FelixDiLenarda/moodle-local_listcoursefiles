@@ -18,6 +18,7 @@ on:
       - '.github/workflows/*'
       - 'db/*'
       - 'templates/*'
+  workflow_dispatch:
 
 jobs:
   test:
